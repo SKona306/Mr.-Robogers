@@ -2,11 +2,18 @@
 
 function beebBoop(number){
   let numbersArray = [];
-  for(i = 0; i <= number; i++) {
-    numbersArray.push(i);
+  for(let i = 0; i <= number; i++) {
+    i = i.toString();
+    if(i.includes(3)) {
+      numbersArray.push("Won't you be my neighbor?")
+    }else if(i.includes(2)) {
+      numbersArray.push("Boop!")
+
+    }else {
+      numbersArray.push(i);
+    }
   }
-  let numbersString = numbersArray.toString();
-  console.log(numbersString)
+
 
   return numbersArray;
 }

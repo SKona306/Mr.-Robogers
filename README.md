@@ -15,6 +15,14 @@ Expect(beepBoop(5).toEqual([0, 1, 2, 3, 4, 5]);
 Test: "It should turn an array of numbers into a string of numbers."
 code:
 beepBoop(3)
-let stringNumbers = i.toString()
+let string = arr.toString()
 Expect(beepBoop(3).toEqual("0, 1, 2, 3");
+
+Test: "It should replace any number with a 3 with "Won't you be my neighbor?"
+code: beepBoop(3)
+Expect(beepBoop(3).toEqual(["0", "1", "2", "Won't you be my neighbor?"]);
+
+Test: "It should replace any number with a 2 with "Boop!"
+code: beebBoop(2)
+Expect(beepBoop(2).toEqual(["0", "1", "Boop!"]);
 
