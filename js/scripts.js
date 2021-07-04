@@ -8,14 +8,13 @@ function beebBoop(number){
       numbersArray.push("Won't you be my neighbor?")
     }else if(i.includes(2)) {
       numbersArray.push("Boop!")
-
+    }else if(i.includes(1)) {
+      numbersArray.push("Beep!")
     }else {
       numbersArray.push(i);
     }
   }
-
-
   return numbersArray;
 }
 
-beebBoop(3);
+beebBoop(1);
