@@ -1,14 +1,14 @@
 // Business logic
 
-function beebBoop(number){
+function beebBoop(userInputNumber){
   let numbersArray = [];
-  for(let i = 0; i <= number; i++) {
+  for(let i = 0; i <= userInputNumber; i++) {
     i = i.toString();
-    if(i.includes(3)) {
+    if(i.match(/3/g)) {
       numbersArray.push("Won't you be my neighbor?")
-    }else if(i.includes(2)) {
+    }else if(i.match(/2/g)) {
       numbersArray.push("Boop!")
-    }else if(i.includes(1)) {
+    }else if(i.match(/1/g)) {
       numbersArray.push("Beep!")
     }else {
       numbersArray.push(i);
@@ -17,4 +17,6 @@ function beebBoop(number){
   return numbersArray;
 }
 
-beebBoop(5);
+beebBoop(20);
+
+// Interface Logic 

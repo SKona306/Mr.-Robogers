@@ -30,6 +30,6 @@ Test: "It should replace any number with a 1 with "Beep!"
 Code: beepBoop(1)
 Expect(beepBoop(1).toEqual(["0", "Beep!"]);
 
-Test: "It will return an array with numbers except those with 1, 2, 3 which will be replaced with corresponding strings"
+Test: "It will return an array with numbers except 1, 2, 3 which are replaced by strings with Regex."
 code: beepBoop(5)
 Expect(beepBoop(5).toEqual(["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5"]);
