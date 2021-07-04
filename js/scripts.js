@@ -17,4 +17,4 @@ function beebBoop(number){
   return numbersArray;
 }
 
-beebBoop(1);
+beebBoop(5);
