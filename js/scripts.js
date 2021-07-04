@@ -1,11 +1,14 @@
 // Business logic
 
 function beebBoop(number){
-  let numberArray = [];
-  for(let i = 0; i <= number; i++) {
-    numberArray.push(i);
+  let numbersArray = [];
+  for(i = 0; i <= number; i++) {
+    numbersArray.push(i);
   }
-  return numberArray;
+  let numbersString = numbersArray.toString();
+  console.log(numbersString)
+
+  return numbersArray;
 }
 
-beebBoop(10);
+beebBoop(3);

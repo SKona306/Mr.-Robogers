@@ -12,3 +12,9 @@ Test: "It should return an array of numbers from 0 to number inputted."
 code: beebBoop(5);
 Expect(beepBoop(5).toEqual([0, 1, 2, 3, 4, 5]);
 
+Test: "It should turn an array of numbers into a string of numbers."
+code:
+beepBoop(3)
+let stringNumbers = i.toString()
+Expect(beepBoop(3).toEqual("0, 1, 2, 3");
+
