@@ -6,4 +6,4 @@ function beebBoop(number){
   console.log(numberArray);
 }
 
-beebBoop(0);
+beebBoop(12);
