@@ -26,9 +26,9 @@ $(document).ready(function() {
     event.preventDefault();
     let userInputNumber = $("#number-input").val();
     const finalArray = beebBoop(userInputNumber)
-    let arrayToString = finalArray.toString();
+    let answerAsString = finalArray.toString();
     
-    $(".output").text(arrayToString);
+    $(".output").text(answerAsString);
     $("#output-values").show();
   })
 })
