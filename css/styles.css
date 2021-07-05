@@ -1,0 +1,50 @@
+header {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: lightblue;
+  padding:1em;
+  font-family: 'Roboto Mono', monospace;
+  font-weight:bolder;
+  margin-bottom: 10px;
+  height:40vh;
+}
+
+#info-section {
+  height: auto;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#roborogers-info {
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  padding-top: 6em;
+  padding-left: 1em;
+}
+
+img {
+  float: left;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  overflow: hidden;
+  padding:1em;
+}
+
+#form-number {
+  border: 1px solid black;
+  padding: 1em;
+}
+
+#results-area {
+  height:40vh;
+  border:1px solid black;
+  padding: 1em;
+}
+
+button {
+  padding: 2em;
+}

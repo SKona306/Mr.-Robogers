@@ -11,7 +11,7 @@ function beebBoop(userInputNumber){
     }else if(i.match(/1/g)) {
       numbersArray.push("Beep!")
     }else {
-      numbersArray.push(i);
+      numbersArray.push(i); 
     }
   }
   return numbersArray;
@@ -20,3 +20,7 @@ function beebBoop(userInputNumber){
 beebBoop(20);
 
 // Interface Logic 
+
+$(document).ready(function() {
+  
+})

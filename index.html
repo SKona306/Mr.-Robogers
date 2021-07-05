@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="css/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.6.0.js"></script>
@@ -12,12 +15,16 @@
       <h1>Mr. Roborogers Neighborhood</h1>
       <h3>Won't you be my neighbor?</h3>
     </header>
+    
     <div class="container">
-      <div id="roborogers-info">
-        <img src="img/robot.jpg" alt="picture of robot">
-        <p>Hello there! My name is Roborogers, I am small web application that can take any number you give me and return a special message. My purpose is partially guided by my late friend Mr. Rogers, my hope is too continue his message of love. So please stay awhile and enjoy!</p>
+      <div id="info-section">
+        <img src="img/robot.jpg">
+        <div id="roborogers-info">
+          <p>Hello there! My name is Roborogers, I am small web application that can take any number you give me and return a special message. My purpose is partially guided by my late friend Mr. Rogers, my hope is too continue his message of love, kindness, courage and uniqueness. So please stay awhile and enjoy!</p>
+        </div>
       </div>
     </div>
+    
     <div class="container">
       <form id="form-number">
         <div id="instructions">
@@ -27,10 +34,16 @@
           <label for="number-input">Input number:</label>
           <input id="number-input" class="form-control" type="number">
         </div>
+        <button type="submit" class="btn btn-outline-dark btn-lg">Submit</button>
       </form>
     </div>
-    <div id="output-values">
-
+    <div class="container">
+      <div id="results-area">
+        <h3 style="text-decoration: underline;">See special message below!</h3>
+        <div id="output-values">
+        
+        </div>
+      </div>
     </div>
   </body>
 </html>
