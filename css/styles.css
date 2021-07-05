@@ -15,6 +15,7 @@ header {
   height: auto;
   border: 1px solid black;
   overflow: hidden;
+  font-family: 'Roboto Slab', serif;
 }
 
 #roborogers-info {
@@ -46,10 +47,17 @@ img {
 }
 
 footer {
-  height: 20vh;
+  height: auto;
   padding:1em;
   padding-top: 2em;
   background:lightblue;
   margin-top:10px;
 }
 
+h3, h4, li {
+  font-family: 'Roboto Mono', monospace; 
+}
+
+#instructions, label {
+  font-family: 'Roboto Slab', serif;
+}
