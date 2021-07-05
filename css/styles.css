@@ -40,11 +40,16 @@ img {
 }
 
 #results-area {
-  height:40vh;
+  height:auto;
   border:1px solid black;
   padding: 1em;
 }
 
-button {
-  padding: 2em;
+footer {
+  height: 20vh;
+  padding:1em;
+  padding-top: 2em;
+  background:lightblue;
+  margin-top:10px;
 }
+
